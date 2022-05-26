@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T13:28:59.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="TK8yYuqv73kU3RP97XC9" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T13:30:32.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="MIAGJTDyE4fEKGAgPUtd" version="18.1.2" type="github">
   <diagram id="zcfvbmhaNhXf-GVwD4tk" name="Page-1">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-vTE3M6gPlMeEd9H_BuC-1" value="Fósil" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="200" width="140" height="156" as="geometry" />
+          <mxGeometry x="90" y="67" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="-vTE3M6gPlMeEd9H_BuC-3" value="Tipo de vida : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -19,11 +19,8 @@
         <mxCell id="-vTE3M6gPlMeEd9H_BuC-5" value="PeriodoHistorico : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-vTE3M6gPlMeEd9H_BuC-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-1">
-          <mxGeometry y="130" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="-vTE3M6gPlMeEd9H_BuC-7" value="PeriodoHistorico" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="60" width="140" height="104" as="geometry" />
+          <mxGeometry x="460" y="80" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="-vTE3M6gPlMeEd9H_BuC-8" value="Periodo : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-7">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -33,6 +30,30 @@
         </mxCell>
         <mxCell id="-vTE3M6gPlMeEd9H_BuC-10" value="Contienente : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-7">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vTE3M6gPlMeEd9H_BuC-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="-vTE3M6gPlMeEd9H_BuC-7" target="-vTE3M6gPlMeEd9H_BuC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="200" as="sourcePoint" />
+            <mxPoint x="310" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vTE3M6gPlMeEd9H_BuC-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="-vTE3M6gPlMeEd9H_BuC-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="290" as="sourcePoint" />
+            <mxPoint x="350" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vTE3M6gPlMeEd9H_BuC-14" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="-vTE3M6gPlMeEd9H_BuC-15" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-14">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vTE3M6gPlMeEd9H_BuC-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-14">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-vTE3M6gPlMeEd9H_BuC-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-vTE3M6gPlMeEd9H_BuC-14">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
