@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @DrunkedOwl
-- I’m interested in stealing your code 👀  
-- 🌱 I’m currently learning how to code in c
+- I’m interested in sharing and researching code for various purposes 👀  
+- 🌱 I’m currently learning how to code WEB, and already know and have some experience in java, c, js, python, html, php and css
 - 📫 How to reach me.
-idk, just send a dm
+idk, just send a dm.
 
 <!---
 DrunkedOwl/DrunkedOwl is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -68,7 +68,6 @@ int main()
 			else 
 			{
         	printf("La frase no es un palindromo \n");
-			}
-				
+			}				
 return 0;
 }
